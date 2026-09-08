@@ -1,0 +1,14 @@
+h1{
+    color: orange;
+}
+h2{
+    text-align: end;
+}
+.First{
+    font-size: 22px;
+}
+.Second{
+    font-size: 15px;
+    text-align: end;
+    font-family: monospace;
+}
