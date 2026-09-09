@@ -1,0 +1,51 @@
+.static,
+.relative,
+.absolute {
+    display: flex;
+    border: 2px dotted black;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.static > div,
+.relative > div,
+.absolute > div {
+    width: 120px;
+    height: 120px;
+}
+
+.red {
+    background-color: red;
+    color: black;
+}
+
+.green {
+    background-color: green;
+    color: black;
+}
+
+/* static */
+
+.static .green {
+    position: static;
+}
+
+/* relative */
+
+.relative .two {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+/* absolute */
+
+.absolute {
+    position: relative;
+}
+
+.absolute .two {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}

@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(247, 187, 76);
+    margin: 0;
+    padding: 10px;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    height: 710px;
+    
+}
+
+.cont div {
+    color: white;
+    font-size: 70px;
+    font-family: Georgia, serif;
+    
+}
+
+.gre {
+    background-color: green;
+    text-align: center;
+}
+
+.ye {
+    background-color: yellow;
+    text-align: center;
+}
+
+.pu {
+    background-color: purple;
+    text-align: center;
+}
+
+.gra {
+    background-color: gray;
+    text-align: center;
+}
+
+.bl {
+    background-color: blue;
+    text-align: center;
+}
+
+.or {
+    background-color: rgb(147, 107, 33);
+    text-align: center;
+}
+
+.pi {
+    background-color: pink;
+    text-align: center;
+}
+
+.re {
+    background-color: red;
+    text-align: center;
+}
+
+.br {
+    background-color: brown;
+    text-align: center;
+}
